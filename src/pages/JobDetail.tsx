@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeftIcon, BriefcaseIcon, CheckIcon, ClockIcon, MapPinIcon } from 'lucide-react';
 import { PageHero } from '../components/PageHero';

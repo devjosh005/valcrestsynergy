@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRightIcon, BriefcaseIcon, ClockIcon, GraduationCapIcon, HardHatIcon, HeartHandshakeIcon, MapPinIcon, TrendingUpIcon } from 'lucide-react';
 import { PageHero } from '../components/PageHero';

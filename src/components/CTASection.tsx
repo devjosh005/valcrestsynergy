@@ -1,4 +1,3 @@
-import React from 'react';
 import { ButtonLink } from './ButtonLink';
 import { Reveal } from './Reveal';
 import { images } from '../data/images';

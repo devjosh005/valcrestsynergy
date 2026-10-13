@@ -1,4 +1,3 @@
-import React from 'react';
 import { company } from '../data/company';
 
 type LogoProps = {

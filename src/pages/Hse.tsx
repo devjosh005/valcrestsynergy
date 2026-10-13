@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckIcon, FileTextIcon } from 'lucide-react';
 import { PageHero } from '../components/PageHero';

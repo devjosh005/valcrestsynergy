@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { Breadcrumbs, type Crumb } from './Breadcrumbs';
 
@@ -46,3 +45,4 @@ export function PageHero({ title, subtitle, image, imageAlt, breadcrumbs, meta, 
     </section>);
 
 }
+import type React from 'react';

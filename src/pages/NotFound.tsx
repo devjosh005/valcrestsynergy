@@ -1,4 +1,3 @@
-import React from 'react';
 import { ButtonLink } from '../components/ButtonLink';
 import { images } from '../data/images';
 import { usePageMeta } from '../hooks/usePageMeta';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { CalendarClockIcon, ClockIcon, MailIcon, MapPinIcon, PhoneIcon } from 'lucide-react';
 import { PageHero } from '../components/PageHero';

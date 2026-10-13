@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRightIcon } from 'lucide-react';
 
@@ -35,3 +34,4 @@ export function ButtonLink({ to, children, variant = 'primary', arrow = false, c
     </Link>);
 
 }
+import type React from 'react';

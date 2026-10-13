@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { MailIcon, MapPinIcon, PhoneIcon } from 'lucide-react';
 import { Logo } from '../Logo';

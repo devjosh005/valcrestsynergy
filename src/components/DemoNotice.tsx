@@ -1,4 +1,3 @@
-import React from 'react';
 import { InfoIcon } from 'lucide-react';
 
 type DemoNoticeProps = {
@@ -15,3 +14,4 @@ export function DemoNotice({ children, tone = 'light' }: DemoNoticeProps) {
     </p>);
 
 }
+import type React from 'react';

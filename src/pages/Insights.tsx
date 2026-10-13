@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRightIcon, SearchIcon, XIcon } from 'lucide-react';
 import { PageHero } from '../components/PageHero';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 
 type RevealProps = {
@@ -21,3 +20,4 @@ export function Reveal({ children, delay = 0, className }: RevealProps) {
     </motion.div>);
 
 }
+import type React from 'react';

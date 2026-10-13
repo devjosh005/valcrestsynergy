@@ -1,4 +1,3 @@
-import React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { CheckCircle2Icon, Loader2Icon, SendIcon } from 'lucide-react';
 import { FormField } from './FormField';

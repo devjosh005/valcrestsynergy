@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { PageHero } from '../components/PageHero';
 import { SectionHeading } from '../components/SectionHeading';

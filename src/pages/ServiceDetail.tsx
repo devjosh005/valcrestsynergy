@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { CheckIcon, MailIcon, PhoneIcon } from 'lucide-react';
 import { PageHero } from '../components/PageHero';

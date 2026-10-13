@@ -1,4 +1,3 @@
-import React from 'react';
 import { PageHero } from '../components/PageHero';
 import { DemoNotice } from '../components/DemoNotice';
 import { company } from '../data/company';

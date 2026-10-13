@@ -1,4 +1,3 @@
-import React from 'react';
 import { AlertCircleIcon } from 'lucide-react';
 
 type FormFieldProps = {
@@ -36,3 +35,4 @@ export function FormField({ id, label, required, error, hint, className = '', ch
     </div>);
 
 }
+import type React from 'react';

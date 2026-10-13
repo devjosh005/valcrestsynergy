@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { CheckCircle2Icon, FileTextIcon, Loader2Icon, UploadCloudIcon, XIcon } from 'lucide-react';
 import { FormField } from './FormField';
