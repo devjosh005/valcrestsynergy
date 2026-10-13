@@ -161,12 +161,6 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Link
-            to="/contact?type=quote"
-            className="hidden h-11 items-center whitespace-nowrap rounded-md bg-gold px-5 text-sm font-semibold text-navy transition-colors duration-150 hover:bg-gold-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 sm:inline-flex">
-            
-            Request a Quote
-          </Link>
           <button
             type="button"
             onClick={() => setMobileOpen((o) => !o)}
@@ -247,14 +241,6 @@ export function Header() {
               }
                 </li>
             )}
-              <li className="pt-6">
-                <Link
-                to="/contact?type=quote"
-                className="flex h-12 items-center justify-center rounded-md bg-gold text-[15px] font-semibold text-navy hover:bg-gold-light">
-                
-                  Request a Quote
-                </Link>
-              </li>
             </ul>
           </motion.nav>
         }
