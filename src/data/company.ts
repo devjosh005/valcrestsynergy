@@ -14,7 +14,7 @@ export const company = {
   },
   phone: '+00 (000) 000 0000',
   phoneHref: 'tel:+000000000000',
-  email: 'info@yourcompany.com',
+  email: 'info@valcrestsynergy.com',
   careersEmail: 'careers@yourcompany.com',
   hours: [
   { days: 'Monday – Friday', time: '08:00 – 17:00' },
