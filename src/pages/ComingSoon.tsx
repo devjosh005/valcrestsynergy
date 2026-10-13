@@ -38,15 +38,15 @@ export function ComingSoon() {
       </header>
 
       <section className="container-site flex flex-1 items-center py-16 sm:py-20 lg:py-24">
-        <div className="max-w-4xl">
-          <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-gold sm:text-sm">
+        <div className="mx-auto max-w-4xl text-center">
+          <div className="flex items-center justify-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-gold sm:text-sm">
             <span className="h-px w-8 bg-gold" aria-hidden="true" />
             New website coming soon
           </div>
           <h1 className="mt-7 max-w-4xl text-4xl font-extrabold leading-[1.08] sm:text-5xl md:text-6xl lg:text-7xl">
             {company.name}
           </h1>
-          <p className="mt-7 max-w-2xl text-lg leading-relaxed text-white/75 sm:text-xl">
+          <p className="mx-auto mt-7 max-w-2xl text-lg leading-relaxed text-white/75 sm:text-xl">
             We are building a stronger digital home for the expertise, reliability, and integrated solutions we bring to the
             energy industry.
           </p>
