@@ -7,10 +7,6 @@ import { ServiceDetail } from './pages/ServiceDetail';
 import { Projects } from './pages/Projects';
 import { ProjectDetail } from './pages/ProjectDetail';
 import { Hse } from './pages/Hse';
-import { Insights } from './pages/Insights';
-import { ArticleDetail } from './pages/ArticleDetail';
-import { Careers } from './pages/Careers';
-import { JobDetail } from './pages/JobDetail';
 import { Contact } from './pages/Contact';
 import { Legal } from './pages/Legal';
 import { NotFound } from './pages/NotFound';
@@ -27,10 +23,6 @@ export function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:slug" element={<ProjectDetail />} />
           <Route path="/hse" element={<Hse />} />
-          <Route path="/insights" element={<Insights />} />
-          <Route path="/insights/:slug" element={<ArticleDetail />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/careers/:slug" element={<JobDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Legal kind="privacy" />} />
           <Route path="/terms" element={<Legal kind="terms" />} />

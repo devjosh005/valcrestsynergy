@@ -167,9 +167,6 @@ export function About() {
               Our engineers, technicians, supervisors and support teams are the reason clients return. We invest in their
               competence, give them the authority to stop unsafe work, and create clear pathways for them to grow with the company.
             </p>
-            <Link to="/careers" className="mt-8 inline-flex items-center gap-2 font-semibold text-gold hover:text-gold-light">
-              Explore careers <ArrowUpRightIcon className="h-4 w-4" aria-hidden="true" />
-            </Link>
           </Reveal>
         </div>
         <div className="relative min-h-[360px] lg:order-2 lg:min-h-[560px]">

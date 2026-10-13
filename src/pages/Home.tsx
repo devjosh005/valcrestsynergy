@@ -13,13 +13,11 @@ import { SectionHeading } from '../components/SectionHeading';
 import { ButtonLink } from '../components/ButtonLink';
 import { ServiceCard } from '../components/ServiceCard';
 import { ProjectCard } from '../components/ProjectCard';
-import { ArticleCard } from '../components/ArticleCard';
 import { StatsSection } from '../components/StatsSection';
 import { CTASection } from '../components/CTASection';
 import { Reveal } from '../components/Reveal';
 import { services } from '../data/services';
 import { projects } from '../data/projects';
-import { articles } from '../data/articles';
 import { images } from '../data/images';
 import { company } from '../data/company';
 import { usePageMeta } from '../hooks/usePageMeta';
@@ -39,8 +37,6 @@ export function Home() {
     'Engineering, equipment supply, procurement, pipeline, inspection and maintenance services for oil and gas operators.'
   );
   const featured = projects.filter((p) => p.featured).slice(0, 3);
-  const latest = articles.slice(0, 3);
-
   return (
     <>
       <HomeHero />
@@ -192,25 +188,6 @@ export function Home() {
               </ButtonLink>
             </div>
           </Reveal>
-        </div>
-      </section>
-
-      {/* News */}
-      <section className="py-20 md:py-28" aria-labelledby="news-heading">
-        <div className="container-site">
-          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
-            <SectionHeading eyebrow="News & insights" title="Perspectives from the field." />
-            <Link to="/insights" className="inline-flex shrink-0 items-center gap-2 font-semibold text-petrol hover:text-navy">
-              All articles <ArrowRightIcon className="h-4 w-4" aria-hidden="true" />
-            </Link>
-          </div>
-          <div className="mt-14 grid gap-10 md:grid-cols-3 md:gap-8">
-            {latest.map((a, i) =>
-            <Reveal key={a.slug} delay={i * 0.05} className="h-full">
-                <ArticleCard article={a} />
-              </Reveal>
-            )}
-          </div>
         </div>
       </section>
 
