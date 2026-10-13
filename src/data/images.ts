@@ -1,0 +1,22 @@
+export const images = {
+  heroOffshore: "/ff1ad108-3ed1-4555-9690-6cd947ed2826.jpg",
+  refineryDusk: "/b45d92ec-aab6-4f4c-a0b0-aa0b1ec7d437.jpg",
+  engineersPpe: "/99c31b56-efbe-4177-aedc-972b9ee57846.jpg",
+  teamEngineering: "/167b43fa-4423-4051-87ac-9f2e61013079.jpg",
+  pipelineConstruction: "/93f9b1f0-7ca0-4038-a13e-430c5488a87d.jpg",
+  equipmentValves: "/857d9fbe-a688-49f0-a620-32a1d40c2eb8.jpg",
+  procurementLogistics: "/6eaf8d08-baab-454b-86fc-1b1cfb7c9243.jpg",
+  inspectionNdt: "/73ae5527-7645-48d4-b7d2-07afad6bd8aa.jpg",
+  maintenanceTechnician: "/7a73b7c4-35db-421c-bd12-9eb9d566827c.jpg",
+  engineeringDesign: "/d9036cc2-b410-4a0c-a3b8-4ab7bbcd78ef.jpg",
+  gasPlant: "/96e900c2-4b37-4d8d-95b9-5ee765d95eb8.jpg",
+  storageTanks: "/955f0c29-8ea0-40ba-910d-f47df503ea2c.jpg",
+  pipelineAerial: "/ff464187-aa69-4e8a-bd77-47e91d68d8c7.jpg",
+  offshoreCrew: "/97878b6c-e853-4277-8161-851c57382e67.jpg",
+  compressorStation: "/2f873c26-c5ef-48ee-8068-26bf8a42a379.jpg",
+  careersTeam: "/462f3184-4701-47d1-a564-1d226bd50387.jpg",
+  hseTraining: "/20963620-2353-4710-8232-8a7b3467d56b.jpg",
+  controlRoom: "/8dc7cb93-298a-44f4-9410-2ce74382bc16.jpg",
+  pumpjacksSunset: "/7fcaabd1-6d34-4213-a026-493f3e46d733.jpg",
+  environmentMonitoring: "/f6b4838b-0f4e-4d1f-8764-4d6b016f1829.jpg"
+};
