@@ -17,13 +17,25 @@ const previewValue = 'valcrest-2026';
 
 function hasPreviewAccess() {
   const params = new URLSearchParams(window.location.search);
+  const pathPreviewRequested = window.location.pathname === '/client-preview';
+  const previewRequested = params.get('preview') === previewValue || pathPreviewRequested;
 
-  if (params.get('preview') === previewValue) {
-    window.sessionStorage.setItem(previewKey, 'enabled');
+  if (previewRequested) {
+    try {
+      window.sessionStorage.setItem(previewKey, 'enabled');
+    } catch {
+      // Preview access still works when a browser blocks session storage.
+    }
+
+    if (pathPreviewRequested) window.history.replaceState(null, '', '/');
     return true;
   }
 
-  return window.sessionStorage.getItem(previewKey) === 'enabled';
+  try {
+    return window.sessionStorage.getItem(previewKey) === 'enabled';
+  } catch {
+    return false;
+  }
 }
 
 export function App() {
