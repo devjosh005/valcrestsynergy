@@ -8,7 +8,7 @@ import { DemoNotice } from '../components/DemoNotice';
 import { images } from '../data/images';
 import { company } from '../data/company';
 import { services } from '../data/services';
-import { timeline, coreValues, leadership, qualityPoints } from '../data/about';
+import { timeline, coreValues, leadership, qualityPoints, businessScope } from '../data/about';
 import { usePageMeta } from '../hooks/usePageMeta';
 
 export function About() {
@@ -18,7 +18,7 @@ export function About() {
     <>
       <PageHero
         title="An energy services partner built on trust."
-        subtitle="We help operators design, supply, build, inspect and maintain the infrastructure that delivers energy safely and reliably."
+        subtitle="We support the exploration, production, processing, storage, transportation and marketing of energy with integrated technical and commercial capability."
         image={images.refineryDusk}
         imageAlt="Refinery at dusk with illuminated distillation columns"
         breadcrumbs={[{ label: 'About Us' }]} />
@@ -32,9 +32,9 @@ export function About() {
           </Reveal>
           <Reveal delay={0.05} className="space-y-5 text-[17px] leading-relaxed text-ink/75">
             <p>
-              {company.name} provides integrated engineering, equipment supply, procurement, pipeline, inspection and maintenance
-              services to the oil and gas industry. We work with national and international operators, EPC contractors and
-              industrial organisations on onshore and offshore assets.
+              {company.name} provides integrated oil and gas, engineering, EPC/EPCI, oilfield, equipment, workforce, HSSE and
+              commercial services across the energy value chain. We support companies involved in exploration, production,
+              processing, storage, transportation and marketing.
             </p>
             <p>
               Our approach is simple: understand the operating reality of each facility, apply recognised technical standards,
@@ -43,6 +43,29 @@ export function About() {
             </p>
             <DemoNotice>Replace bracketed values throughout this page with verified company information.</DemoNotice>
           </Reveal>
+        </div>
+      </section>
+
+      {/* Business scope */}
+      <section className="bg-mist py-20 md:py-28" aria-label="Business scope">
+        <div className="container-site grid gap-12 lg:grid-cols-[4fr_8fr] lg:gap-20">
+          <div>
+            <SectionHeading
+              eyebrow="Business scope"
+              title="Established for integrated delivery."
+              text="Our corporate objects support a broad range of energy, industrial and enabling activities, subject to applicable licences and regulatory approvals." />
+          </div>
+          <ol className="grid gap-x-10 border-y border-navy/10 md:grid-cols-2">
+            {businessScope.map((item, index) =>
+            <li key={item.title} className="border-b border-navy/10 py-6 md:last:border-b-0">
+                <Reveal delay={index % 2 * 0.04}>
+                  <p className="text-xs font-bold text-gold-deep">{String(index + 1).padStart(2, '0')}</p>
+                  <h3 className="mt-2 text-lg font-bold text-navy">{item.title}</h3>
+                  <p className="mt-2 text-[15px] leading-relaxed text-ink/70">{item.text}</p>
+                </Reveal>
+              </li>
+            )}
+          </ol>
         </div>
       </section>
 

@@ -19,9 +19,9 @@ export const hsePillars = [
 },
 {
   icon: LeafIcon,
-  title: 'Environmental Responsibility',
-  text: 'We work to minimise our footprint: preventing spills and releases, managing waste responsibly and restoring sites to agreed standards after work is complete.',
-  points: ['Spill prevention and response planning', 'Waste segregation and responsible disposal', 'Site reinstatement and environmental monitoring'],
+  title: 'Environmental & Security Services',
+  text: 'We help clients manage environmental and operational risk through waste management, spill prevention and response, remediation, security awareness and practical consultancy.',
+  points: ['Oil-spill response and remediation planning', 'Waste management and responsible disposal', 'Environmental risk assessment, monitoring and site reinstatement'],
   image: images.environmentMonitoring,
   imageAlt: 'Environmental specialist taking water samples'
 },
@@ -46,7 +46,7 @@ export const riskSteps = [
 export const supportingAreas = [
 { icon: ClipboardCheckIcon, title: 'Quality Management', text: 'Documented procedures, inspection and test plans, and corrective action processes that keep quality consistent across projects.' },
 { icon: RecycleIcon, title: 'Sustainability Initiatives', text: 'Reducing fuel use, emissions and waste across our operations, and supporting clients’ own emissions-reduction goals.' },
-{ icon: ShieldAlertIcon, title: 'Emergency Preparedness', text: 'Site-specific emergency response plans, drills and coordination with client and local emergency services.' }];
+{ icon: ShieldAlertIcon, title: 'Emergency & Security Preparedness', text: 'Site-specific emergency and security risk plans, drills, oil-spill response arrangements and coordination with client and local response services.' }];
 
 
 export const hsePolicies = [

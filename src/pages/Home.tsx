@@ -34,7 +34,7 @@ const reasons = [
 export function Home() {
   usePageMeta(
     'Integrated Oil & Gas Solutions',
-    'Engineering, equipment supply, procurement, pipeline, inspection and maintenance services for oil and gas operators.'
+    'Integrated oilfield, engineering, EPC/EPCI, equipment, workforce, HSSE and energy services for operators and industrial clients.'
   );
   const featured = projects.filter((p) => p.featured).slice(0, 3);
   return (
@@ -57,9 +57,9 @@ export function Home() {
             <SectionHeading eyebrow="Who we are" title="Your Trusted Partner in Energy Excellence." />
             <div className="mt-6 space-y-5 text-[17px] leading-relaxed text-ink/75">
               <p>
-                {company.name} is an integrated oil and gas services company supporting operators, contractors and industrial
-                organisations through every stage of the asset lifecycle — from engineering and procurement to construction,
-                inspection and long-term maintenance.
+                {company.name} supports oil and gas operators, contractors and industrial organisations across exploration,
+                production, processing, storage, transportation and marketing — from well-site support and EPC/EPCI delivery to
+                equipment supply, workforce solutions, HSSE and long-term maintenance.
               </p>
               <p>
                 Our multidisciplinary teams combine practical field experience with rigorous technical standards. We plan every
@@ -83,7 +83,7 @@ export function Home() {
             <SectionHeading
               eyebrow="Core services"
               title="Integrated capabilities across the energy value chain."
-              text="Six service lines, engaged individually or as a single coordinated package." />
+              text="Specialist service lines, engaged individually or as one coordinated delivery package." />
             
             <Link to="/services" className="inline-flex shrink-0 items-center gap-2 font-semibold text-petrol hover:text-navy">
               All services <ArrowRightIcon className="h-4 w-4" aria-hidden="true" />

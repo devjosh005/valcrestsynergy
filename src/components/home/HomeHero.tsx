@@ -32,8 +32,8 @@ export function HomeHero() {
             <span className="block text-gold">Delivering Energy Solutions.</span>
           </motion.h1>
           <motion.p {...enter(0.08)} className="mt-7 max-w-xl text-lg leading-relaxed text-white/80 md:text-xl">
-            Providing reliable, innovative, and integrated oil and gas solutions that support operational excellence across the
-            energy value chain.
+            Integrated oilfield, engineering, EPC/EPCI, equipment, workforce, HSSE and commercial solutions that support
+            operational excellence across the energy value chain.
           </motion.p>
           <motion.div {...enter(0.16)} className="mt-10 flex flex-col gap-4 sm:flex-row">
             <ButtonLink to="/services" arrow>

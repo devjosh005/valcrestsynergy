@@ -5,7 +5,7 @@ export const company = {
   wordmark: 'VALCREST',
   wordmarkSub: 'Integreated Synergy Limited',
   description:
-  'An integrated oil and gas services company delivering engineering, equipment supply, pipeline, inspection and maintenance solutions across the energy value chain.',
+  'An integrated energy services company delivering oilfield support, engineering, EPC/EPCI, equipment supply, operations, integrity, workforce and HSSE solutions across the energy value chain.',
   foundedYear: '[Year]',
   address: {
     line1: '[Street Address], [Suite / Floor]',

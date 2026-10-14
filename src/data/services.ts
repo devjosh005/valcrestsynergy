@@ -4,7 +4,12 @@ import {
   TruckIcon,
   WaypointsIcon,
   ScanSearchIcon,
-  WrenchIcon } from
+  WrenchIcon,
+  FuelIcon,
+  UsersRoundIcon,
+  ShieldCheckIcon,
+  ContainerIcon,
+  HardHatIcon } from
 'lucide-react';
 import { images } from './images';
 import type { Service } from '../types/content';
@@ -12,8 +17,8 @@ import type { Service } from '../types/content';
 export const services: Service[] = [
 {
   slug: 'engineering-technical-services',
-  title: 'Engineering & Technical Services',
-  shortTitle: 'Engineering & Technical Services',
+  title: 'Engineering, EPC/EPCI & Technical Services',
+  shortTitle: 'Engineering & EPC/EPCI',
   icon: DraftingCompassIcon,
   image: images.engineeringDesign,
   imageAlt: 'Engineers reviewing a 3D plant design model on large monitors',
@@ -32,9 +37,11 @@ export const services: Service[] = [
   'Detailed mechanical, piping and structural design',
   'Electrical, instrumentation and control engineering',
   'Process simulation and debottlenecking',
-  'Technical consultancy and owner’s engineering',
+  'EPC/EPCI project delivery and owner’s engineering',
+  'Fabrication and approved equipment manufacturing',
   'Project planning, scheduling and cost estimation',
-  'Construction and commissioning support'],
+  'Construction, installation and commissioning support',
+  'Project management, technical audit, research and technology'],
 
   capabilities: [
   { title: 'Integrated disciplines', text: 'Process, mechanical, piping, civil, electrical and I&C engineering coordinated under one technical lead.' },
@@ -245,6 +252,101 @@ export const services: Service[] = [
   { title: 'Safer work', text: 'Maintenance executed under robust permit-to-work controls.' },
   { title: 'Scalable workforce', text: 'Additional skilled personnel when campaigns demand it.' }]
 
+},
+{
+  slug: 'oilfield-well-services', title: 'Oilfield & Well Services', shortTitle: 'Oilfield & Well Services', icon: HardHatIcon,
+  image: images.offshoreCrew, imageAlt: 'Oilfield crew working safely on an offshore facility', heroImage: images.pumpjacksSunset,
+  summary: 'Drilling support, well-site, completion, intervention, workover, pressure control and well testing services.',
+  intro: 'We provide coordinated field support for well construction, completion, intervention and production activities, with competent personnel and disciplined operating controls.',
+  description: ['Our oilfield teams support operators and drilling contractors through critical well activities, from mobilisation and well-site preparation to completion, intervention, workover and testing programmes.', 'Every scope is planned around well integrity, pressure control, clear interfaces and accurate reporting, with services configured to the client’s programme and applicable regulatory requirements.'],
+  scope: ['Drilling and well-site support', 'Well completion services', 'Well intervention and workover support', 'Pressure control services', 'Well testing and production testing support', 'Equipment mobilisation and field logistics', 'Technical personnel and supervision'],
+  capabilities: [
+  { title: 'Well-site coordination', text: 'Clear interfaces between operator, rig, service companies and logistics teams.' },
+  { title: 'Pressure-control discipline', text: 'Procedures and competent personnel aligned with well-control requirements.' },
+  { title: 'Flexible field support', text: 'Personnel and equipment configured for campaign, call-off or project scopes.' },
+  { title: 'Operational reporting', text: 'Structured field records, service reports and close-out documentation.' }],
+  industries: ['Exploration & production', 'Drilling contractors', 'Onshore wells', 'Offshore wells', 'Well intervention campaigns'],
+  benefits: [
+  { title: 'Safer execution', text: 'Planned interfaces and pressure-control discipline reduce operational risk.' },
+  { title: 'Responsive support', text: 'Field teams mobilised around programme and well-site priorities.' },
+  { title: 'Integrated delivery', text: 'Personnel, equipment and logistics coordinated through one point of contact.' },
+  { title: 'Traceable outcomes', text: 'Clear reporting supports operational review and regulatory records.' }]
+},
+{
+  slug: 'energy-products-gas-services', title: 'Petroleum Products, Gas & Energy Services', shortTitle: 'Products, Gas & Energy', icon: FuelIcon,
+  image: images.storageTanks, imageAlt: 'Petroleum storage tanks and distribution infrastructure', heroImage: images.gasPlant,
+  summary: 'Licensed supply and distribution support for petroleum products, lubricants, natural gas and emerging energy solutions.',
+  intro: 'We support reliable energy supply through product trading, distribution coordination and storage, terminal and depot services, subject to applicable licences and approvals.',
+  description: ['Our commercial scope covers PMS, AGO, DPK, ATK, AVGAS, LPFO, HPFO, LPG, CNG, LNG, lubricants and related products. We coordinate sourcing, quality documentation, logistics and delivery for approved transactions.', 'We also pursue natural gas, renewable and other energy services that help clients diversify supply and develop practical lower-emission solutions.'],
+  scope: ['PMS, AGO and DPK supply and distribution', 'ATK and AVGAS supply support', 'LPFO and HPFO distribution', 'LPG, CNG and LNG services', 'Lubricants and related products', 'Storage, terminal and depot support', 'Natural gas and renewable energy services'],
+  capabilities: [
+  { title: 'Product range', text: 'Coverage across transport, aviation, industrial fuel, gas and lubricant requirements.' },
+  { title: 'Distribution coordination', text: 'Commercial, logistics and delivery activities managed through defined controls.' },
+  { title: 'Infrastructure support', text: 'Storage, terminal and depot activities aligned to product-handling requirements.' },
+  { title: 'Energy transition', text: 'Natural gas and renewable opportunities assessed around client needs and viability.' }],
+  industries: ['Oil & gas', 'Aviation', 'Industrial manufacturing', 'Transport & logistics', 'Power & utilities'],
+  benefits: [
+  { title: 'Coordinated supply', text: 'One commercial interface from sourcing through delivery.' },
+  { title: 'Product assurance', text: 'Documentation and handling controls appropriate to each product.' },
+  { title: 'Flexible solutions', text: 'Support for conventional fuel, gas and emerging energy needs.' },
+  { title: 'Compliance focus', text: 'Activities undertaken subject to applicable licences and approvals.' }]
+},
+{
+  slug: 'manpower-training', title: 'Manpower, Recruitment & Training', shortTitle: 'Manpower & Training', icon: UsersRoundIcon,
+  image: images.careersTeam, imageAlt: 'Engineering and technical personnel walking through an industrial facility', heroImage: images.hseTraining,
+  summary: 'Technical staffing, recruitment, manpower supply, training and capacity development for energy and allied industries.',
+  intro: 'We connect projects and operating facilities with competent people, then help those people build the skills required for safe and reliable performance.',
+  description: ['Our workforce services cover role definition, candidate sourcing, screening, mobilisation and ongoing personnel coordination for engineering, construction, operations, maintenance and support functions.', 'Training and capacity-development programmes can be tailored to project requirements, client procedures, technical disciplines, HSE expectations and Nigerian local-content objectives.'],
+  scope: ['Manpower supply and mobilisation', 'Technical and professional recruitment', 'Project and maintenance staffing', 'Competency assessment and verification', 'Technical and HSE training', 'Supervisor and workforce development', 'Local-content capacity development'],
+  capabilities: [
+  { title: 'Role-based screening', text: 'Candidates assessed against technical, experience and project-specific requirements.' },
+  { title: 'Mobilisation support', text: 'Documentation, onboarding and deployment coordinated for site readiness.' },
+  { title: 'Competence development', text: 'Training plans linked to roles, risk and client operating standards.' },
+  { title: 'Local talent', text: 'Workforce development aligned with participation and local-content priorities.' }],
+  industries: ['Oil & gas', 'Energy', 'Engineering & construction', 'Petrochemicals', 'Allied industrial sectors'],
+  benefits: [
+  { title: 'Faster mobilisation', text: 'Structured recruitment and onboarding reduce staffing delays.' },
+  { title: 'Verified competence', text: 'Personnel matched to defined technical and safety requirements.' },
+  { title: 'Scalable teams', text: 'Workforce levels adapt to projects, shutdowns and operating demand.' },
+  { title: 'Lasting capability', text: 'Training strengthens individual performance and organisational capacity.' }]
+},
+{
+  slug: 'hsse-environmental-services', title: 'HSSE & Environmental Services', shortTitle: 'HSSE & Environmental', icon: ShieldCheckIcon,
+  image: images.environmentMonitoring, imageAlt: 'Environmental specialist carrying out field monitoring near an energy facility', heroImage: images.engineersPpe,
+  summary: 'Health, safety, security and environmental consultancy, waste management, spill response, remediation and risk services.',
+  intro: 'We help organisations prevent harm, prepare for emergencies and manage environmental liabilities through practical, field-focused HSSE services.',
+  description: ['Our specialists support risk assessment, safety management, environmental monitoring, waste planning, security awareness and compliance activities across projects and operating assets.', 'For environmental incidents and legacy impacts, we support oil-spill preparedness and response, site assessment, remediation planning, implementation oversight and close-out monitoring.'],
+  scope: ['HSSE management and safety consultancy', 'Project and task risk assessment', 'Waste management services', 'Oil-spill preparedness and response', 'Environmental remediation support', 'Environmental monitoring and reporting', 'Security risk support and emergency planning'],
+  capabilities: [
+  { title: 'Integrated HSSE', text: 'Health, safety, security and environmental risks considered together.' },
+  { title: 'Incident readiness', text: 'Response plans, drills and resources aligned to credible scenarios.' },
+  { title: 'Environmental recovery', text: 'Assessment and remediation support focused on responsible restoration.' },
+  { title: 'Practical assurance', text: 'Field inspections, audits and advice translated into actionable controls.' }],
+  industries: ['Upstream operations', 'Pipelines', 'Terminals & depots', 'Construction projects', 'Industrial facilities'],
+  benefits: [
+  { title: 'Reduced exposure', text: 'Risks identified and controlled before work or incidents escalate.' },
+  { title: 'Response confidence', text: 'Prepared teams and defined arrangements improve incident response.' },
+  { title: 'Responsible recovery', text: 'Remediation activity planned around environmental and stakeholder needs.' },
+  { title: 'Clear oversight', text: 'Auditable reporting supports management and regulatory review.' }]
+},
+{
+  slug: 'equipment-rental-heavy-lifting', title: 'Equipment Rental, Lifting & Heavy Handling', shortTitle: 'Equipment Rental & Lifting', icon: ContainerIcon,
+  image: images.procurementLogistics, imageAlt: 'Industrial equipment and heavy materials prepared for project logistics', heroImage: images.pipelineConstruction,
+  summary: 'Industrial equipment hire with lifting, rigging, crane and heavy-duty handling support for projects and operations.',
+  intro: 'We help clients access fit-for-purpose industrial equipment and coordinated heavy-handling support without adding permanent fleet capacity.',
+  description: ['Our rental and hire services are structured around the work scope, site conditions, equipment certification and mobilisation plan. Available solutions are matched to project and operational requirements.', 'For lifting and heavy handling, we support lift planning, rigging selection, crane coordination, competent personnel and controlled execution in line with site procedures and applicable requirements.'],
+  scope: ['Industrial equipment lease, rental and hire', 'Crane and lifting support', 'Rigging and heavy-duty handling', 'Lift planning and coordination', 'Certified lifting accessories', 'Equipment mobilisation and demobilisation', 'Operators, riggers and lifting supervision'],
+  capabilities: [
+  { title: 'Fit-for-purpose selection', text: 'Equipment matched to load, access, environment and operating requirements.' },
+  { title: 'Lift planning', text: 'Defined lift methods, responsibilities and controls before execution.' },
+  { title: 'Competent teams', text: 'Operators, riggers and supervisors aligned to project requirements.' },
+  { title: 'Coordinated logistics', text: 'Mobilisation, site access and demobilisation planned as one work package.' }],
+  industries: ['EPC projects', 'Oilfield operations', 'Pipeline construction', 'Plant maintenance', 'Industrial logistics'],
+  benefits: [
+  { title: 'Capital flexibility', text: 'Access equipment capacity without permanent ownership.' },
+  { title: 'Controlled lifting', text: 'Planning and competent supervision improve heavy-handling safety.' },
+  { title: 'Project responsiveness', text: 'Rental periods and mobilisation aligned to the work programme.' },
+  { title: 'Single coordination point', text: 'Equipment, logistics and lifting support managed together.' }]
 }];
 
 

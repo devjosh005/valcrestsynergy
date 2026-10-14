@@ -10,13 +10,13 @@ import { images } from '../data/images';
 import { usePageMeta } from '../hooks/usePageMeta';
 
 export function Services() {
-  usePageMeta('Our Services', 'Engineering, equipment supply, procurement, pipeline, inspection and operations & maintenance services for the oil and gas industry.');
+  usePageMeta('Our Services', 'Oilfield, engineering, EPC/EPCI, equipment, workforce, HSSE, energy products and operations services for oil, gas and industrial clients.');
 
   return (
     <>
       <PageHero
         title="Services that keep energy moving."
-        subtitle="Six integrated service lines supporting operators from early engineering through decades of reliable operation."
+        subtitle="Integrated technical, operational, commercial and support services across the oil, gas and wider energy value chain."
         image={images.gasPlant}
         imageAlt="Natural gas processing plant with vessels and pipework"
         breadcrumbs={[{ label: 'Services' }]}>

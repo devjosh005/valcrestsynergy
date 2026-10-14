@@ -10,13 +10,13 @@ import { images } from '../data/images';
 import { usePageMeta } from '../hooks/usePageMeta';
 
 export function Hse() {
-  usePageMeta('Health, Safety & Environment', 'Our approach to occupational health and safety, environmental responsibility, risk management, training and continuous improvement.');
+  usePageMeta('Health, Safety, Security & Environment', 'Our approach to occupational safety, security, waste management, spill response, remediation, risk management and continuous improvement.');
 
   return (
     <>
       <PageHero
-        title="Health, Safety & Environment"
-        subtitle="Responsible operations are not a department. They are how every person in our company plans and performs their work."
+        title="Health, Safety, Security & Environment"
+        subtitle="Responsible operations are not a department. They guide how we plan work, manage environmental impacts, prepare for incidents and protect people and assets."
         image={images.engineersPpe}
         imageAlt="Engineers in hard hats and coveralls at a gas facility"
         breadcrumbs={[{ label: 'HSE' }]} />
